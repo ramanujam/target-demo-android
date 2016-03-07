@@ -1,0 +1,20 @@
+The app has three target campaigns built in (see screenshots inside the zipped folder). 
+
+- Test Effectiveness of single sign on(social-signup)
+- Display targeted welcome message (welcome-message)
+- Show offers based on user's location or behavior (country-deals)
+
+It is linked to a demo target account (bullseyedemo) but that can be changed easily in the config file (app/assets). This isn't built in production quality but works well for demoing the capabilities of Target.
+
+This dropbox link has a zipped file which contains a folder with 
+- App code with configured gradle scripts, ready to demo instantly in Android studio.
+- APK for installing on android phone/emulator. 
+https://www.dropbox.com/s/az5thwtxydu44go/Deals.zip?dl=0
+
+How to demo 
+
+1. Install Android Studio (https://developer.android.com/sdk/index.html). The installation process has too many options but if you check the defaults and accept, you should be fine. 
+2. Select File - Open or choose 'Open an existing android studio project' in the initial dialog and pick the 'Deals' folder
+3. Run the app and it will show the emulator. If it is successful, you should be seeing something like mbox-call-response.png screenshot. 
+
+You can also just install the app on an android phone or an emulator and show how the content can be changed from the target UI after the app is live but that works only for a certain type of audience. 
